@@ -11,9 +11,13 @@ parameters:
   type: string
   default: "default_value"
 
-# variables:
-# - name: one
-#   value: initialValue
+- name: "USER"
+  type: string
+  default: "default_value"
+
+variables:
+- name: USER
+  value: initialValue
 
 pool:
   vmImage: ubuntu-latest
